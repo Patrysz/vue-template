@@ -4,15 +4,18 @@
     <router-link to="/about">About</router-link>
     <HeaderComponent />
   </nav>
-  <router-view />
+  <IncrementalButton />
 </template>
 
 <script>
 import HeaderComponent from "./components/HeaderComponent.vue";
+import IncrementalButton from "./components/IncrementalButton.vue";
+
 export default {
   name: "App",
   components: {
     HeaderComponent,
+    IncrementalButton,
   },
 };
 </script>
